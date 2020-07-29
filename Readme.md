@@ -15,9 +15,7 @@ GLFW is licensed under the zlib/libpng license.
 
 ## What is GLAD?
 
-GLAD is a function loader for OpenGL. This tutorial explains how to set it up.
-
-The tutorial explains the purpose of GLAD:
+GLAD is a function loader for OpenGL.
 
 Since there are many different versions of OpenGL drivers, the location of most of its functions is not known at compile-time and needs to be queried at run-time.
 
