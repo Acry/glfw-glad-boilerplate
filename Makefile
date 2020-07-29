@@ -12,9 +12,6 @@ TARGETS     = boing gears heightmap offscreen particles sharing splitview triang
 .PHONY: all
 all: $(TARGETS)
 
-1: glad.c 1.c
-	cc $(CFLAGS) -o $(LINUX_DIR)$@ $+ $(LDFLAGS)
-
 boing: glad.c boing.c
 	cc $(CFLAGS) -o $(LINUX_DIR)$@ $+ $(LDFLAGS)
 
